@@ -58,3 +58,8 @@ variable "bgp" {
     neighbor_range2 = string
   })
 }
+
+variable "faz_ip" {
+  description = "local FAZ IP address"
+  type = string
+}

@@ -45,5 +45,6 @@ module "advpn_hub" {
     neighbor_range1 = "192.168.98.0 255.255.255.0"
     neighbor_range2 = "192.168.97.0 255.255.255.0"
   }
+  faz_ip = "10.6.20.157"
 }
 
