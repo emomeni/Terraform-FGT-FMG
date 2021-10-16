@@ -63,3 +63,8 @@ variable "faz_ip" {
   description = "local FAZ IP address"
   type = string
 }
+
+variable "fmg_ip" {
+  description = "local FMG IP address"
+  type = string
+}

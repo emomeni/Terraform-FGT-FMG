@@ -127,3 +127,9 @@ resource "fortios_system_sdwan" "sdwan" {
 
   ]
 }
+
+resource "fortios_system_centralmanagement" "fmg" {
+    mode = "normal"
+    type = "fortimanager"
+    fmg = var.fmg_ip
+}
