@@ -1,2 +1,2 @@
-hostname = <MANAGEMENT IP>
+management = <MANAGEMENT IP>
 token    = <API KEY>
